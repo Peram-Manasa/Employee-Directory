@@ -1,0 +1,51 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.applygrid{
+
+       border-radius: 20px solid black;
+    // display:flex;
+    // flex-wrap: wrap;
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: repeat(auto auto auto );
+    border:1px transparent;
+    padding:10px;
+    margin-right: -6px;
+   grid-template-columns: auto auto auto;
+   row-gap: 30px;
+   border-radius: 2px solid black;
+    background-color: white;
+}
+.persona_card{
+    align-items: center;
+    border: 1px transparent rgb(178, 178, 32);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    padding-right: 6px;
+   position: relative;
+    height: 50px;
+    .persona{
+      align-items: center;
+      display: inline-flex;
+      height: 200px;
+      justify-content: center;
+      position: absolute;
+      right: 1rem;
+      width: 100px;
+      i{
+        color: "[theme:themeSecondary, default: #2b88d8]";
+        cursor: pointer;
+        font-size: 1.4rem;
+        border: 0px transparent;
+      }
+    }
+    .callout {
+      display: block;
+      
+    }
+    .calloutShow {
+      display: block;
+    }
+  
+  }
